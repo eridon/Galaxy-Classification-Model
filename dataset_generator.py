@@ -9,9 +9,9 @@ OUTPUT_CLASSES = ["spiral", "elliptical", "irregular"]
 
 # Define the search terms and number of images for each category
 MASTER_DICT = {
-    "spiral galaxy": 1,
-    "elliptical galaxy": 1,
-    "irregular galaxy": 1
+    "spiral galaxy": 200,
+    "elliptical galaxy": 200,
+    "irregular galaxy": 200
 }
 
 # Configure the Google Images URL
@@ -55,9 +55,9 @@ def download_images(search_term, num_images):
         for i, imagelink in enumerate(imagelinks):
             response = requests.get(imagelink)
 
-            # Open each image link and save the file as PNG
+            # Open each image link and save the file as JPG
             imagename = os.path.join(
-                OUTPUT_FOLDER, search_term, search_term + "_" + str(i + 1) + ".png")
+                OUTPUT_FOLDER, search_term, search_term + "_" + str(i + 1) + ".jpg")
             os.makedirs(os.path.dirname(imagename), exist_ok=True)
             with open(imagename, 'wb') as file:
                 file.write(response.content)
