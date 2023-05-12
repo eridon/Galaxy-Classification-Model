@@ -34,6 +34,6 @@
 ## How to Use
 
 1. Clone the repository 
-1a. If on MacOS, open a terminal on the repository and type in 'jupyter notebook'. Then navigate to 'galaxy_classification_model.ipynb'.
-1b. If on Windows, use the windows search facility to search for Anaconda and type in 'jupyter notebook'. Then navigate to 'galaxy_classification_model.ipynb'.
+2. If on MacOS, open a terminal on the repository and type in 'jupyter notebook'. Then navigate to 'galaxy_classification_model.ipynb'.
+3. If on Windows, use the windows search facility to search for Anaconda and type in 'jupyter notebook'. Then navigate to 'galaxy_classification_model.ipynb'.
 2. Run the python notebook step-by-step.
