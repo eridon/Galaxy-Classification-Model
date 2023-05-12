@@ -9,9 +9,9 @@ OUTPUT_CLASSES = ["spiral", "elliptical", "irregular"]
 
 # Define the search terms and number of images for each category
 MASTER_DICT = {
-    "spiral galaxy": 200,
-    "elliptical galaxy": 200,
-    "irregular galaxy": 200
+    "spiral galaxy": 500,
+    "elliptical galaxy": 500,
+    "irregular galaxy": 500
 }
 
 # Configure the Google Images URL
