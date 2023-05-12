@@ -1,15 +1,17 @@
 # Galaxy Image Classification Model
 
+This project aims to develop an accurate galaxy image classification model by leveraging a combination of deep learning and decision tree techniques. The model is designed to classify images of galaxies based on their visual features. The performance of the model is evaluated on a test dataset, and custom tuning options are provided to allow for furthur optimisation. 
 
 ## Dataset
 
 - The galaxy image dataset is located in the "galaxy_images" directory. 
-- A new dataset can be created using 'dataset_generator.py' file.
+- A new dataset can be curated using 'dataset_generator.py' file.
 
 ## CNN Model
 
-- The CNN model used in this project is based on the ResNet50 architecture. 
-- The pre-trained ResNet50 model is loaded with all its layers set as non-trainable. Additional layers, including a flatten layer, a dense layer, a dropout layer, and a final dense layer with softmax activation, are added to the model. 
+- The CNN model used in this project is based on the ResNet50 architecture which is trained on the ImageNet dataset.
+- The pre-trained ResNet50 model is loaded with all its layers set as non-trainable. 
+- Additional layers, including a flatten layer, a dense layer, a dropout layer, and a final dense layer with softmax activation, are added to the model. 
 - The model is then compiled with the Adam optimizer and categorical cross-entropy loss function. 
 - The training history is recorded and the average accuracy is calculated.
 
