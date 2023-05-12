@@ -20,7 +20,7 @@ The decision tree model and the neural network are combined to make predictions 
 
 ## Custom Tuning (GUI)
 
-The program provides a graphical user interface (GUI) to customise the CNN model by adjusting parameters such as the number of epochs and learning rate. This allows users to fine-tune the model according to their specific requirements. After modifying the hyperparameters, the model is retrained using the updated settings, and accuracy curves are plotted to visualise the performance. The accuracy of the tuned model is then compared to that of the default CNN model.
+The program provides a graphical user interface (GUI) to customise the CNN model by adjusting parameters such as the number of epochs. This allows users to fine-tune the model according to their specific requirements. After modifying the hyperparameters, the model is retrained using the updated settings, and accuracy curves are plotted to visualise the performance. The accuracy of the tuned model is compared to that of the default CNN model.
 
 ## How to Use
 
