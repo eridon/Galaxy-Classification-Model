@@ -1,6 +1,6 @@
 # Galaxy Image Classification Model
 
-This project aims to develop an accurate galaxy image classification model by leveraging a combination of convolutional neural networks (CNNs) and decision tree techniques. The model is designed to classify galaxies into three main categories; spiral, elliptical, and irregular. The performance of the model is then evaluated on a test dataset, and custom tuning options are provided to allow for further optimisation.
+This project aims to develop an accurate galaxy image classification model by leveraging a combination of convolutional neural networks (CNNs) and decision tree techniques. The model is designed to classify galaxies into three main categories; spiral, elliptical, and irregular. The performance of the model is then evaluated on a test dataset, and custom hyperparameter tuning is used to allow for further optimisation.
 
 ## Dataset
 
