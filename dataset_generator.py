@@ -35,7 +35,7 @@ def download_images(search_term, num_images):
         results = b_soup.findAll('img', {'class': 'rg_i Q4LuWd'})
 
         count = 0
-        imagelinks = []  # Create array to hold image links
+        imagelinks = []
         for res in results:
             try:
                 link = res['data-src']
